@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark mode</title>
+    <link rel="stylesheet" href="dark.css" type="text/css">
+</head>
+<body >
+    <header id="theme-button" class="change" >
+        <img src="toggle-right-regular-24.png" id="icons" >
+    </header>
+    <main id="selected-theme">
+    <h1>
+       The mega store
+    </h1>
+    <div>
+        <p>
+            The best site for Computers , Mobiles and Laptops
+         <br>
+        <a href="log.html" class="button">Get Start</a>
+    </p>
+        <img src="loge.jpeg">
+    </div>
+    </main>
+    <script>
+       var icons = document.getElementById("icons");
+       icons.onclick = function() {
+           document.body.classList.toggle("dark-theme");
+           if(document.body.classList.contains("dark-theme")){
+               icons.src ="toggle-left-regular-24.png";
+           }
+           else{
+            icons.src ="toggle-right-regular-24.png";
+           }
+       }
+    </script>
+    
+</body>
+</html>

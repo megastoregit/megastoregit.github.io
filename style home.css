@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:linear-gradient(rgba(0,0,0,0,5) rgba(0,0,0,0,5)), "Roboto",sans-serif;
+}
+body{
+    background-image: url("bc.PNG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container{
+    max-width: 2000px;
+
+}
+
+header{
+    width: auto;
+    overflow: auto;
+    margin-top: 1%;
+}
+.logo{
+    float: left;
+}
+.logo h2{
+    font-size: xx-large;
+    color: hsla(0, 25%, 92%, 0.925);
+    margin-left: 10px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    width: auto;
+    overflow: auto;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li :hover{
+    border: 1px solid #fff ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(248, 247, 247, 0.938);
+    font-size: 18px;
+    padding: 5px 15px;
+}
+nav ul .active{
+    border: 1px solid #fff ;
+}
+.text{
+    margin-top: 20%;
+}
+.text h1{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+}
+.button{
+    margin-left: 47%;
+    margin-top: 13px;
+}
+.button{
+    width: 82px;
+    height: 50px;
+    border: 1px solid #fff;
+}
+button a {
+    font-size: 40px;
+    text-decoration: none;
+}
+.btn1{
+background-color: #0984e3;
+}
+.btn1 a{
+    color: #fff;
+    border: 1px solid #0984e3 ;
+}

@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+   display: flex;
+   align-items: center;
+   padding: 3px;
+
+ }
+ .logo img{
+    border-radius: 50%;
+   
+ }
+ nav{
+    flex: 1;
+    text-align: right;
+    
+ }
+nav ul {
+   display: inline-block;
+   list-style-type: none;
+
+}
+ nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+ } 
+ .active,  nav ul li:hover {
+    background: #d5a5f6;
+    border-radius: 3px;
+ } 
+a{
+   text-decoration: none;
+   color: rgb(106, 104, 104);
+}
+p{
+   color: rgb(106, 104, 104);;
+}
+.sub-menu{
+   display: none;
+}
+nav ul li:hover .sub-menu{
+   display: block;
+   position: absolute;
+   background: rgb(178, 150, 217);
+   margin-top: 10px;
+   margin-left: 10px;
+}
+nav ul li:hover .sub-menu li{
+   display:block;
+   margin: 10px;
+}
+.container{
+   max-width: 1300px;
+   margin: auto;
+   padding-left: 35px;
+   padding-right: 35px;
+
+}
+.row{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.col2{
+   flex-basis: 50%;
+   min-width: 300px;
+}
+.col2 video{
+   max-width: 100%;
+   padding: 50px 0 ;
+}
+.col2 h1 {
+   font-size: 42px;
+   line-height: 60px;
+   margin: 10px 0;
+
+}
+.btn{
+   display: inline-block;
+   background: rgb(137, 85, 159);
+   color: #fff;
+   padding: 8px 30px;
+   margin: 30px 0;
+   border-radius: 20px;
+   transition: background 0.5s;
+}
+.btn:hover{
+   background: #f297e1;
+}
+.header{
+   background: radial-gradient(#fff,#e3c6f7);
+}
+.header .row {
+   margin-top: 70px;
+}
+.category{
+   margin: 70px 0;
+}
+.image{
+   flex-basis: 30%;
+   margin-bottom: 30px;
+   text-align: center;
+}
+.image img{
+   width: 100%;   
+}
+.samll-category{
+   max-width: 1080px;
+   padding: 5px;
+   padding-left: 25px;
+   padding-right: 25px;
+   margin: auto;
+   padding-top: 0;
+   top: 0;
+
+  
+}
+.footer{
+   background: #000;
+   color: #8a8a8a;
+   font-size: 16px;
+   padding: 60px 0 20px;
+  
+
+}
+.footer p{
+   color: #8a8a8a;
+}
+.footer h3{
+   color: #fff;
+   margin-bottom: 20px;
+
+}
+.footer-col1, .footercol3, .footercol4{
+   min-width: 250px;
+   margin-bottom: 20px;
+   display: flex;
+  
+}
+.footer-col1{
+   flex-basis: 30%;
+}
+
+.footercol3, .footercol4{
+   flex-basis: 12%;
+   text-align: center;
+}
+ul{
+   list-style-type: none;
+   
+}
+
+
+
+
+ 
